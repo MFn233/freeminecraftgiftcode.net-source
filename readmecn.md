@@ -8,14 +8,16 @@
 
 当你点击“Claim Your FREE Minecraft Gift Code”时，发生的是：
 
-`<script>  
+```html
+<script>  
 	function show_alert(){//此函数仅仅只是显示一个alert，没有其他任何作用  
 		alert("Oops! Looks like you didn't complete Step 2!");  
 	}  
 </script>  
 <input type="button"  
-	onclick="show_alert()"//调用show_alert函数  
-	value="Claim Your FREE Minecraft Gift Code">`
+	onclick="show_alert()"<!--调用show_alert函数-->  
+	value="Claim Your FREE Minecraft Gift Code">
+ ```
 	
 无论你何时点击此按钮，它**都**将调用一次alert函数，**无论你是否完成第二步骤。**
 
