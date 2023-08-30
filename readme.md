@@ -15,7 +15,7 @@ When you click on 'Claim Your FREE Minecraft Gift Code', what happens is:
 	}  
 </script>  
 <input type="button"  
-	onclick="show_alert()"//call show_alert function  
+	onclick="show_alert()"<!--call show_alert function-->  
 	value="Claim Your FREE Minecraft Gift Code">
 ```
 	
