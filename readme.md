@@ -8,14 +8,16 @@ I saw that **many people believe that this website can really obtain gift codes*
 
 When you click on 'Claim Your FREE Minecraft Gift Code', what happens is:
 
-`<script>  
+```html
+<script>  
 	function show_alert(){//The function only displays an alert on the screen and has no other function  
 		alert("Oops! Looks like you didn't complete Step 2!");  
 	}  
 </script>  
 <input type="button"  
 	onclick="show_alert()"//call show_alert function  
-	value="Claim Your FREE Minecraft Gift Code">`
+	value="Claim Your FREE Minecraft Gift Code">
+```
 	
 **Whenever** you click this button, it will call the alert function once, **no matter whether you have completed the second step**.
 
