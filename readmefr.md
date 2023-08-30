@@ -8,14 +8,16 @@ Vous voyez**Il y a beaucoup de gens qui croient que ce site Web peut vraiment ob
 
 Lorsque vous cliquez sur « Réclamer votre code cadeau Minecraft GRATUIT », que se passe-t-il:
 
-`<script>  
+```html
+<script>  
 	function show_alert(){//Cette fonction affiche simplement une alerte et n'a rien d'autre à faire  
 		alert("Oops! Looks like you didn't complete Step 2!");  
 	}  
 </script>  
 <input type="button"
-	onclick="show_alert()"//Fonction show_alert d’appel 
-	value="Claim Your FREE Minecraft Gift Code">`
+	onclick="show_alert()"<!--Fonction show_alert d’appel--> 
+	value="Claim Your FREE Minecraft Gift Code">
+```
 	
 Chaque fois que vous cliquez sur ce bouton, il**tout** appellera la fonction d’alerte une fois,**Que vous terminiez la deuxième étape ou non.**
 
