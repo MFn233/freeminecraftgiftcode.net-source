@@ -15,8 +15,8 @@ Lorsque vous cliquez sur « Réclamer votre code cadeau Minecraft GRATUIT », 
 	}  
 </script>  
 <input type="button"
-	onclick="show_alert()"<!--Fonction show_alert d’appel--> 
-	value="Claim Your FREE Minecraft Gift Code">
+	onclick="show_alert()"
+	value="Claim Your FREE Minecraft Gift Code"><!-- Fonction show_alert d’appel -->
 ```
 	
 Chaque fois que vous cliquez sur ce bouton, il**tout** appellera la fonction d’alerte une fois,**Que vous terminiez la deuxième étape ou non.**
